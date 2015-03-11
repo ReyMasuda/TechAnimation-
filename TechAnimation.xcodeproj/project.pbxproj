@@ -15,6 +15,7 @@
 		CE2332171AB0278600DF8DEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2332161AB0278600DF8DEB /* Images.xcassets */; };
 		CE23321A1AB0278600DF8DEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE2332181AB0278600DF8DEB /* LaunchScreen.xib */; };
 		CE2332261AB0278600DF8DEB /* TechAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2332251AB0278600DF8DEB /* TechAnimationTests.m */; };
+		CE2332301AB030B600DF8DEB /* 2000px-Spinnin'_Records_logo.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = CE23322F1AB030B600DF8DEB /* 2000px-Spinnin'_Records_logo.svg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		CE23321F1AB0278600DF8DEB /* TechAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2332241AB0278600DF8DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE2332251AB0278600DF8DEB /* TechAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TechAnimationTests.m; sourceTree = "<group>"; };
+		CE23322F1AB030B600DF8DEB /* 2000px-Spinnin'_Records_logo.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2000px-Spinnin'_Records_logo.svg.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				CE2332051AB0278600DF8DEB /* TechAnimation */,
 				CE2332221AB0278600DF8DEB /* TechAnimationTests */,
 				CE2332041AB0278600DF8DEB /* Products */,
+				CE23322F1AB030B600DF8DEB /* 2000px-Spinnin'_Records_logo.svg.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -205,6 +208,7 @@
 				CE2332151AB0278600DF8DEB /* Main.storyboard in Resources */,
 				CE23321A1AB0278600DF8DEB /* LaunchScreen.xib in Resources */,
 				CE2332171AB0278600DF8DEB /* Images.xcassets in Resources */,
+				CE2332301AB030B600DF8DEB /* 2000px-Spinnin'_Records_logo.svg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
