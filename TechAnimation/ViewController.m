@@ -46,19 +46,21 @@
 }
 
 -(IBAction)show{
-    label = [[UILabel alloc] initWithFrame:CGRectMake(-10, -30, 50, 30)];
+    label = [[UILabel alloc] initWithFrame:CGRectMake(-10, -30, 50, 30)]; //Labelを生成し、初期状態を決める
     
-    label.backgroundColor = [UIColor blackColor];
+    label.backgroundColor = [UIColor blackColor]; //背景を黒にする
     
-    label.textColor = [UIColor whiteColor];
+    label.textColor = [UIColor whiteColor]; //文字色を黒にする
     
-    label.alpha = 0.0;
+    label.alpha = 0.0; //透明度を0.0にする(見えない)
     
-    label.text = @"HEY!!";
+    label.text = @"HEY!!"; //Labelに表示される文字を"HEY!"にする
     
-    [self.view addSubview:label];
+    [self.view addSubview:label]; //labelを画面に表示される
     
-    [self.view bringSubviewToFront:label];
+    [self.view bringSubviewToFront:label]; //Labelを前面に表示させる
+    
+    [UIview animateKeyframesWithDuration:2.0f delay: options:<#(UIViewKeyframeAnimationOptions)#> animations:<#^(void)animations#> completion:<#^(BOOL finished)completion#>]
     
 }
 
